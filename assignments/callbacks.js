@@ -30,7 +30,7 @@ function getLength(arr, cb) {
 }
 
 function last(arr, cb) {
-  // last passes the last item of the array into the callback.
+  // last passes the last item of the array into the callback. 
 }
 
 function sumNums(x, y, cb) {
