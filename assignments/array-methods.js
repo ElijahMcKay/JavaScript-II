@@ -58,7 +58,7 @@ const runners = [{"id":1,"first_name":"Charmain","last_name":"Seiler","email":"c
 let fullName = [];
 // console.log(fullname);
 runners.forEach(function(element) {
-    fullName.push(element.first_name + ' ' + element.last_name); 
+    fullName.push(`${element.first_name} ${element.last_name}`); 
 })
 
 console.log(fullName); 

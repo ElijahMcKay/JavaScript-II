@@ -2,13 +2,15 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 function test() {
-  var x = 100; 
+  let x = 100; 
   let product = function testProduct() {
+    let y = 5; 
     return  x * y; 
   }
-  return product; 
+  console.log(product());   
 }
 
+test(); 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
