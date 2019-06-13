@@ -1,7 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function test() {
+  let x = 100; 
+  let product = function testProduct() {
+    let y = 5; 
+    return  x * y; 
+  }
+  console.log(product());   
+}
 
+test(); 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
